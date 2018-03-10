@@ -183,11 +183,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\EstudosDotNetCore\\lojaConstrucao\\dotNetCore_Store\\src\\StoreOfBuild.Domain\\StoreOfBuild.Domain.csproj",
+      "projectUniqueName": "C:\\EstudosDotNetCore\\lojaConstrucao\\dotNetCore_Store\\src\\StoreOfBuild.Domain\\StoreOfBuild.Domain.csproj",
       "projectName": "StoreOfBuild.Domain",
-      "projectPath": "c:\\EstudosDotNetCore\\lojaConstrucao\\dotNetCore_Store\\src\\StoreOfBuild.Domain\\StoreOfBuild.Domain.csproj",
+      "projectPath": "C:\\EstudosDotNetCore\\lojaConstrucao\\dotNetCore_Store\\src\\StoreOfBuild.Domain\\StoreOfBuild.Domain.csproj",
       "packagesPath": "C:\\Users\\RABREU\\.nuget\\packages\\",
-      "outputPath": "c:\\EstudosDotNetCore\\lojaConstrucao\\dotNetCore_Store\\src\\StoreOfBuild.Domain\\obj\\",
+      "outputPath": "C:\\EstudosDotNetCore\\lojaConstrucao\\dotNetCore_Store\\src\\StoreOfBuild.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
