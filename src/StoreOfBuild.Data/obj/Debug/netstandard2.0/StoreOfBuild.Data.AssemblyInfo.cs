@@ -7,10 +7,10 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("StoreOfBuild.Domain")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("StoreOfBuild.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("StoreOfBuild.Domain")]
-[assembly: System.Reflection.AssemblyTitleAttribute("StoreOfBuild.Domain")]
+[assembly: System.Reflection.AssemblyProductAttribute("StoreOfBuild.Data")]
+[assembly: System.Reflection.AssemblyTitleAttribute("StoreOfBuild.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

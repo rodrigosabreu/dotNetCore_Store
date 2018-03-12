@@ -1,0 +1,10 @@
+C:\EstudosDotNetCore\lojaConstrucao\dotNetCore_Store\src\StoreOfBuild.Data\bin\Debug\netstandard2.0\StoreOfBuild.Data.deps.json
+C:\EstudosDotNetCore\lojaConstrucao\dotNetCore_Store\src\StoreOfBuild.Data\bin\Debug\netstandard2.0\StoreOfBuild.Data.dll
+C:\EstudosDotNetCore\lojaConstrucao\dotNetCore_Store\src\StoreOfBuild.Data\bin\Debug\netstandard2.0\StoreOfBuild.Data.pdb
+C:\EstudosDotNetCore\lojaConstrucao\dotNetCore_Store\src\StoreOfBuild.Data\bin\Debug\netstandard2.0\StoreOfBuild.Domain.dll
+C:\EstudosDotNetCore\lojaConstrucao\dotNetCore_Store\src\StoreOfBuild.Data\bin\Debug\netstandard2.0\StoreOfBuild.Domain.pdb
+C:\EstudosDotNetCore\lojaConstrucao\dotNetCore_Store\src\StoreOfBuild.Data\obj\Debug\netstandard2.0\StoreOfBuild.Data.csproj.CoreCompileInputs.cache
+C:\EstudosDotNetCore\lojaConstrucao\dotNetCore_Store\src\StoreOfBuild.Data\obj\Debug\netstandard2.0\StoreOfBuild.Data.AssemblyInfoInputs.cache
+C:\EstudosDotNetCore\lojaConstrucao\dotNetCore_Store\src\StoreOfBuild.Data\obj\Debug\netstandard2.0\StoreOfBuild.Data.AssemblyInfo.cs
+C:\EstudosDotNetCore\lojaConstrucao\dotNetCore_Store\src\StoreOfBuild.Data\obj\Debug\netstandard2.0\StoreOfBuild.Data.dll
+C:\EstudosDotNetCore\lojaConstrucao\dotNetCore_Store\src\StoreOfBuild.Data\obj\Debug\netstandard2.0\StoreOfBuild.Data.pdb
