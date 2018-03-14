@@ -5,8 +5,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using StoreOfBuild.Web.Models;
-using StoreOfBuild.Domain.Dtos;
 using StoreOfBuild.Domain.Products;
+using StoreOfBuild.Web.ViewsModels;
 
 namespace StoreOfBuild.Web.Controllers
 {
@@ -31,7 +31,7 @@ namespace StoreOfBuild.Web.Controllers
         }
 
         [HttpPost]
-        public IActionResult CreateOrEdit(CategoryDto dto)
+        public IActionResult CreateOrEdit(CategoryViewModel viewModel)
         {
 
             //jeito velho de fazer, instanciando a classe
@@ -43,7 +43,7 @@ namespace StoreOfBuild.Web.Controllers
             /*var repositorio = new repositorio();
             var storer = new CategoryStorer();*/
 
-            _categoryStorer.Store(dto);
+            _categoryStorer.Store(viewModel.Id, viewModel.Name);
 
             return View();
         }
