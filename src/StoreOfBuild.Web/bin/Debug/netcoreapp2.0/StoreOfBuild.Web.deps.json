@@ -24,9 +24,9 @@
       "StoreOfBuild.Web/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.All": "2.0.5",
-          "Microsoft.EntityFrameworkCore.Design": "2.0.1",
           "Microsoft.NETCore.App": "2.0.0",
-          "StoreOfBuild.DI": "1.0.0"
+          "StoreOfBuild.DI": "1.0.0",
+          "StoreOfBuild.Domain": "1.0.0"
         },
         "runtime": {
           "StoreOfBuild.Web.dll": {}

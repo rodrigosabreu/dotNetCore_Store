@@ -12646,9 +12646,9 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.5",
-      "Microsoft.EntityFrameworkCore.Design >= 2.0.1",
       "Microsoft.NETCore.App >= 2.0.0",
-      "StoreOfBuild.DI >= 1.0.0"
+      "StoreOfBuild.DI >= 1.0.0",
+      "StoreOfBuild.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -12683,6 +12683,9 @@
           "projectReferences": {
             "C:\\EstudosDotNetCore\\lojaConstrucao\\dotNetCore_Store\\src\\StoreOfBuild.DI\\StoreOfBuild.DI.csproj": {
               "projectPath": "C:\\EstudosDotNetCore\\lojaConstrucao\\dotNetCore_Store\\src\\StoreOfBuild.DI\\StoreOfBuild.DI.csproj"
+            },
+            "C:\\EstudosDotNetCore\\lojaConstrucao\\dotNetCore_Store\\src\\StoreOfBuild.Domain\\StoreOfBuild.Domain.csproj": {
+              "projectPath": "C:\\EstudosDotNetCore\\lojaConstrucao\\dotNetCore_Store\\src\\StoreOfBuild.Domain\\StoreOfBuild.Domain.csproj"
             }
           }
         }
@@ -12699,10 +12702,6 @@
           "Microsoft.AspNetCore.All": {
             "target": "Package",
             "version": "[2.0.5, )"
-          },
-          "Microsoft.EntityFrameworkCore.Design": {
-            "target": "Package",
-            "version": "[2.0.1, )"
           },
           "Microsoft.NETCore.App": {
             "target": "Package",

@@ -1,6 +1,8 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using StoreOfBuild.Data;
+using StoreOfBuild.Domain;
+using StoreOfBuild.Domain.Products;
 
 namespace StoreOfBuild.DI
 {
@@ -9,7 +11,10 @@ namespace StoreOfBuild.DI
         public static void Configure(IServiceCollection services, string connection)
         {
            services.AddDbContext<ApplicationDbContext>(options => 
-                options.UseSqlServer(connection));
+                options.UseSqlServer(connection));            
+            services.AddScoped(typeof(IRepository<>), typeof(Repository<>));  
+            services.AddScoped(typeof(CategoryStorer));
+                
         }
     }
 }

@@ -14,7 +14,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\StoreOfBuild.DI\StoreOfBuild.DI.csproj" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.0.1" />
+    <ProjectReference Include="..\StoreOfBuild.Domain\StoreOfBuild.Domain.csproj" />
+    
   </ItemGroup>
 
 </Project>
