@@ -14,6 +14,7 @@ namespace StoreOfBuild.DI
                 options.UseSqlServer(connection));            
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));  
             services.AddScoped(typeof(CategoryStorer));
+            services.AddScoped(typeof(IUnitOfWork), typeof(UnitOfWork));
                 
         }
     }

@@ -33,7 +33,7 @@ namespace StoreOfBuild.Web.Controllers
         [HttpPost]
         public IActionResult CreateOrEdit(CategoryDto dto)
         {
-            
+
             //jeito velho de fazer, instanciando a classe
             //jeito novo de fazer,  injecao de dependencia
             //passar a classe CategoryStorer injetada no construtor desta classe
