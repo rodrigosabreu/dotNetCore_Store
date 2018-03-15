@@ -7,22 +7,31 @@ using Microsoft.AspNetCore.Mvc;
 using StoreOfBuild.Web.Models;
 using StoreOfBuild.Domain.Products;
 using StoreOfBuild.Web.ViewsModels;
+using StoreOfBuild.Domain;
 
 namespace StoreOfBuild.Web.Controllers
 {
     public class CategoryController : Controller
     {
         private readonly CategoryStorer _categoryStorer;
+        private readonly IRepository<Category> _categoryRepository;        
 
-        public CategoryController(CategoryStorer categoryStorer)
+        public CategoryController(CategoryStorer categoryStorer, IRepository<Category> categoryRepository)                                  
         {
             _categoryStorer = categoryStorer;
+            _categoryRepository = categoryRepository;
         }
 
 
         public IActionResult Index()
         {
-            return View();
+
+            
+
+            var categories = _categoryRepository.All();
+            
+            var viewsModels = categories.Select(c => new CategoryViewModel{ Id = c.Id, Name = c.Name });
+            return View(viewsModels);
         }
 
         public IActionResult CreateOrEdit()
@@ -45,7 +54,7 @@ namespace StoreOfBuild.Web.Controllers
 
             _categoryStorer.Store(viewModel.Id, viewModel.Name);
 
-            return View();
+            return RedirectToAction("Index");
         }
        
     }
