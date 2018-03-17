@@ -6,6 +6,7 @@ namespace StoreOfBuild.Domain.Products
         //public int Id { get; private set; }
         public string Name { get; private set; }
 
+        protected Category(){}
 
         public Category(string name)
         {

@@ -25,18 +25,26 @@ namespace StoreOfBuild.Web.Controllers
 
         public IActionResult Index()
         {
-
-            
-
             var categories = _categoryRepository.All();
             
             var viewsModels = categories.Select(c => new CategoryViewModel{ Id = c.Id, Name = c.Name });
+            
             return View(viewsModels);
         }
 
-        public IActionResult CreateOrEdit()
+        public IActionResult CreateOrEdit(int id)
         {
-            return View();
+            
+            if(id > 0)
+            {
+                var category = _categoryRepository.GetById(id);           
+                var categoryViewModel = new CategoryViewModel {Id = category.Id, Name = category.Name};
+                return View(categoryViewModel);
+            }else{
+                return View();
+            }
+            
+
         }
 
         [HttpPost]

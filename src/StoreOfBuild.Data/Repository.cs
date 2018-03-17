@@ -38,7 +38,9 @@ namespace StoreOfBuild.Data
 
             return new List<TEntity>();*/
 
-            return _context.Set<TEntity>().AsEnumerable();
+            var query = _context.Set<TEntity>();
+
+            return query;
 
         }
 
